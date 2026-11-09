@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Everything the pipeline writes. Patient-derived data never belongs in git.
+work/
+example_data/
+*.npz
